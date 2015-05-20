@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDDF77C71B0C107100A10EC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDF77C61B0C107100A10EC6 /* main.m */; };
+		EDDF77CA1B0C107100A10EC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDF77C91B0C107100A10EC6 /* AppDelegate.m */; };
+		EDDF77CD1B0C107100A10EC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDF77CC1B0C107100A10EC6 /* ViewController.m */; };
+		EDDF77D01B0C107100A10EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDF77CE1B0C107100A10EC6 /* Main.storyboard */; };
+		EDDF77D21B0C107100A10EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDF77D11B0C107100A10EC6 /* Images.xcassets */; };
+		EDDF77D51B0C107100A10EC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDF77D31B0C107100A10EC6 /* LaunchScreen.xib */; };
+		EDDF77E11B0C107100A10EC6 /* KPFontPicker_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDF77E01B0C107100A10EC6 /* KPFontPicker_DemoTests.m */; };
+		EDDF77ED1B0C108300A10EC6 /* KPFontPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDF77EC1B0C108300A10EC6 /* KPFontPicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDDF77DB1B0C107100A10EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDDF77B91B0C107100A10EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDF77C01B0C107100A10EC6;
+			remoteInfo = "KPFontPicker Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDDF77C11B0C107100A10EC6 /* KPFontPicker Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KPFontPicker Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDF77C51B0C107100A10EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDF77C61B0C107100A10EC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDDF77C81B0C107100A10EC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDDF77C91B0C107100A10EC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDDF77CB1B0C107100A10EC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDDF77CC1B0C107100A10EC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDDF77CF1B0C107100A10EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDDF77D11B0C107100A10EC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDDF77D41B0C107100A10EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDDF77DA1B0C107100A10EC6 /* KPFontPicker DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KPFontPicker DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDF77DF1B0C107100A10EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDF77E01B0C107100A10EC6 /* KPFontPicker_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPFontPicker_DemoTests.m; sourceTree = "<group>"; };
+		EDDF77EB1B0C108300A10EC6 /* KPFontPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPFontPicker.h; sourceTree = "<group>"; };
+		EDDF77EC1B0C108300A10EC6 /* KPFontPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPFontPicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDDF77BE1B0C107100A10EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDF77D71B0C107100A10EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDDF77B81B0C107100A10EC6 = {
+			isa = PBXGroup;
+			children = (
+				EDDF77EA1B0C108300A10EC6 /* KPFontPicker */,
+				EDDF77C31B0C107100A10EC6 /* KPFontPicker Demo */,
+				EDDF77DD1B0C107100A10EC6 /* KPFontPicker DemoTests */,
+				EDDF77C21B0C107100A10EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDDF77C21B0C107100A10EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF77C11B0C107100A10EC6 /* KPFontPicker Demo.app */,
+				EDDF77DA1B0C107100A10EC6 /* KPFontPicker DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDDF77C31B0C107100A10EC6 /* KPFontPicker Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF77C81B0C107100A10EC6 /* AppDelegate.h */,
+				EDDF77C91B0C107100A10EC6 /* AppDelegate.m */,
+				EDDF77CB1B0C107100A10EC6 /* ViewController.h */,
+				EDDF77CC1B0C107100A10EC6 /* ViewController.m */,
+				EDDF77CE1B0C107100A10EC6 /* Main.storyboard */,
+				EDDF77D11B0C107100A10EC6 /* Images.xcassets */,
+				EDDF77D31B0C107100A10EC6 /* LaunchScreen.xib */,
+				EDDF77C41B0C107100A10EC6 /* Supporting Files */,
+			);
+			path = "KPFontPicker Demo";
+			sourceTree = "<group>";
+		};
+		EDDF77C41B0C107100A10EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF77C51B0C107100A10EC6 /* Info.plist */,
+				EDDF77C61B0C107100A10EC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDDF77DD1B0C107100A10EC6 /* KPFontPicker DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF77E01B0C107100A10EC6 /* KPFontPicker_DemoTests.m */,
+				EDDF77DE1B0C107100A10EC6 /* Supporting Files */,
+			);
+			path = "KPFontPicker DemoTests";
+			sourceTree = "<group>";
+		};
+		EDDF77DE1B0C107100A10EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF77DF1B0C107100A10EC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDDF77EA1B0C108300A10EC6 /* KPFontPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EDDF77EB1B0C108300A10EC6 /* KPFontPicker.h */,
+				EDDF77EC1B0C108300A10EC6 /* KPFontPicker.m */,
+			);
+			path = KPFontPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDDF77C01B0C107100A10EC6 /* KPFontPicker Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDF77E41B0C107100A10EC6 /* Build configuration list for PBXNativeTarget "KPFontPicker Demo" */;
+			buildPhases = (
+				EDDF77BD1B0C107100A10EC6 /* Sources */,
+				EDDF77BE1B0C107100A10EC6 /* Frameworks */,
+				EDDF77BF1B0C107100A10EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KPFontPicker Demo";
+			productName = "KPFontPicker Demo";
+			productReference = EDDF77C11B0C107100A10EC6 /* KPFontPicker Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDDF77D91B0C107100A10EC6 /* KPFontPicker DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDF77E71B0C107100A10EC6 /* Build configuration list for PBXNativeTarget "KPFontPicker DemoTests" */;
+			buildPhases = (
+				EDDF77D61B0C107100A10EC6 /* Sources */,
+				EDDF77D71B0C107100A10EC6 /* Frameworks */,
+				EDDF77D81B0C107100A10EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDDF77DC1B0C107100A10EC6 /* PBXTargetDependency */,
+			);
+			name = "KPFontPicker DemoTests";
+			productName = "KPFontPicker DemoTests";
+			productReference = EDDF77DA1B0C107100A10EC6 /* KPFontPicker DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDDF77B91B0C107100A10EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kirill Pahnev";
+				TargetAttributes = {
+					EDDF77C01B0C107100A10EC6 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EDDF77D91B0C107100A10EC6 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EDDF77C01B0C107100A10EC6;
+					};
+				};
+			};
+			buildConfigurationList = EDDF77BC1B0C107100A10EC6 /* Build configuration list for PBXProject "KPFontPicker Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDDF77B81B0C107100A10EC6;
+			productRefGroup = EDDF77C21B0C107100A10EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDDF77C01B0C107100A10EC6 /* KPFontPicker Demo */,
+				EDDF77D91B0C107100A10EC6 /* KPFontPicker DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDDF77BF1B0C107100A10EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDF77D01B0C107100A10EC6 /* Main.storyboard in Resources */,
+				EDDF77D51B0C107100A10EC6 /* LaunchScreen.xib in Resources */,
+				EDDF77D21B0C107100A10EC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDF77D81B0C107100A10EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDDF77BD1B0C107100A10EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDF77CD1B0C107100A10EC6 /* ViewController.m in Sources */,
+				EDDF77ED1B0C108300A10EC6 /* KPFontPicker.m in Sources */,
+				EDDF77CA1B0C107100A10EC6 /* AppDelegate.m in Sources */,
+				EDDF77C71B0C107100A10EC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDF77D61B0C107100A10EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDF77E11B0C107100A10EC6 /* KPFontPicker_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDDF77DC1B0C107100A10EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDDF77C01B0C107100A10EC6 /* KPFontPicker Demo */;
+			targetProxy = EDDF77DB1B0C107100A10EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDDF77CE1B0C107100A10EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDF77CF1B0C107100A10EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDDF77D31B0C107100A10EC6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDDF77D41B0C107100A10EC6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDDF77E21B0C107100A10EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDDF77E31B0C107100A10EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDDF77E51B0C107100A10EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KPFontPicker Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDDF77E61B0C107100A10EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KPFontPicker Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDDF77E81B0C107100A10EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KPFontPicker DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPFontPicker Demo.app/KPFontPicker Demo";
+			};
+			name = Debug;
+		};
+		EDDF77E91B0C107100A10EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KPFontPicker DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPFontPicker Demo.app/KPFontPicker Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDDF77BC1B0C107100A10EC6 /* Build configuration list for PBXProject "KPFontPicker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDF77E21B0C107100A10EC6 /* Debug */,
+				EDDF77E31B0C107100A10EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDF77E41B0C107100A10EC6 /* Build configuration list for PBXNativeTarget "KPFontPicker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDF77E51B0C107100A10EC6 /* Debug */,
+				EDDF77E61B0C107100A10EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDDF77E71B0C107100A10EC6 /* Build configuration list for PBXNativeTarget "KPFontPicker DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDF77E81B0C107100A10EC6 /* Debug */,
+				EDDF77E91B0C107100A10EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDDF77B91B0C107100A10EC6 /* Project object */;
+}
