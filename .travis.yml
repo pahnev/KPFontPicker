@@ -1,3 +1,3 @@
 language: objective-c
-xcode_project: KPFontPicker Demo/KPFontPicker Demo.xcodeproj
-xcode_scheme: KPFontPickerDemoTest
+script:
+  - xctool -project KPFontPicker Demo/KPFontPicker Demo.xcodeproj -scheme KPFontPickerDemoTest -sdk iphonesimulator
