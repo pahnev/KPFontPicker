@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pahnev/KPFontPicker.svg?branch=master)](https://travis-ci.org/pahnev/KPFontPicker)
+
 # KPFontPicker
 Simple container view for a `UIPicker`.
 
